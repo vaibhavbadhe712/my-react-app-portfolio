@@ -3,24 +3,72 @@ import { motion } from 'framer-motion';
 import '../styles/Skills.css';
 
 const Skills = () => {
-    const skills = [
-        {
-            category: "Core Technologies",
-            items: ["Flutter", "Dart", "Android", "iOS", "Clean Architecture"]
-        },
-        {
-            category: "State Management",
-            items: ["GetX", "BLoC", "Cubit", "Provider"]
-        },
-        {
-            category: "Backend & Services",
-            items: ["Firebase", "REST APIs", "Cloud Functions", "GraphQL"]
-        },
-        {
-            category: "Tools & DevOps",
-            items: ["Git", "GitHub", "GitLab", "Bitbucket", "CI/CD", "Jira"]
-        }
-    ];
+const skills = [
+  {
+    category: "Mobile App Development",
+    items: [
+      "Flutter",
+      "Dart",
+      "Android",
+      "iOS",
+      "Responsive UI",
+      "Clean Architecture",
+      "MVVM"
+    ]
+  },
+  {
+    category: "State Management",
+    items: [
+      "GetX",
+      "BLoC",
+      "Cubit",
+      "Provider",
+      "Riverpod"
+    ]
+  },
+  {
+    category: "Backend & APIs",
+    items: [
+      "Firebase",
+      "REST APIs",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Cloud Functions"
+    ]
+  },
+  {
+    category: "Databases & Storage",
+    items: [
+      "Firebase Firestore",
+      "Firebase Realtime DB",
+      "SQLite",
+      "Shared Preferences"
+    ]
+  },
+  {
+    category: "Tools & DevOps",
+    items: [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Bitbucket",
+      "CI/CD",
+      "Postman",
+      "Jira"
+    ]
+  },
+  {
+    category: "Other Skills",
+    items: [
+      "API Integration",
+      "Play Store Deployment",
+      "App Performance Optimization",
+      "Code Review",
+      "Team Mentoring"
+    ]
+  }
+];
 
     return (
         <section id="skills" className="skills-section">

@@ -20,7 +20,7 @@ const Hero = () => {
                         Vaibhav Badhe
                     </h1>
                     <div className="hero-role">
-                        <span className="text-gradient">Flutter Developer | Mobile App Engineer</span>
+                        <span className="text-gradient">Technical Lead • Mobile Applications • Clean Architecture</span>
                     </div>
                 </motion.div>
 
@@ -30,7 +30,7 @@ const Hero = () => {
                     transition={{ delay: 0.5, duration: 0.8 }}
                     className="text-gray-400 max-w-2xl mx-auto mb-8 text-lg leading-relaxed"
                 >
-                    Crafting high-performance cross-platform mobile experiences with a focus on clean code and premium UI design.
+                    Crafting scalable, production-ready Flutter applications with clean architecture,smooth animations, and real-world business impact..
                 </motion.p>
 
                 <motion.div
