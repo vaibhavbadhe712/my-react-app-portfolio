@@ -4,46 +4,46 @@ import '../styles/Projects.css';
 
 const Projects = () => {
     const projects = [
-        {
-            title: "Janhit",
-            desc: "A comprehensive Vendor Management System streamlining business operations.",
-            tech: ["Flutter", "GetX", "Firebase"],
-            bgStart: "#3b82f6",
-            bgEnd: "#8b5cf6",   
-            link: "https://play.google.com/store/apps/details?id=com.government.janhit"
-        },
-        {
-            title: "TreeCoin",
-            desc: "Finance App for tracking investments and crypto portfolio management.",
-            tech: ["Flutter", "BLoC", "REST API"],
-            bgStart: "#10b981",
-            bgEnd: "#14b8a6",
-            link: "https://play.google.com/store/apps/details?id=com.treecoin.app"
-        },
-        {
-            title: "Baap CRM",
-            desc: "Customer Relationship Management tool tailored for small businesses.",
-            tech: ["Flutter", "Provider", "Node.js"],
-            bgStart: "#a855f7",
-            bgEnd: "#ec4899",
-            link: "https://play.google.com/store/apps/details?id=com.baap.crm.app"
-        },
-        {
-            title: "School Book App",
-            desc: "Educational platform for students to access study materials and assignments.",
-            tech: ["Flutter", "Firebase", "Riverpod"],
-            bgStart: "#f59e0b",
-            bgEnd: "#f97316",
-            link: "https://play.google.com/store/apps/details?id=com.school.book.app"
-        },
-        {
-            title: "OfficeBook HRMS",
-            desc: "Office management solution for employee attendance and task tracking.",
-            tech: ["Flutter", "GetX", "SQLite"],
-            bgStart: "#06b6d4",
-            bgEnd: "#3b82f6",
-            link: "https://play.google.com/store/apps/details?id=com.baapcompany.officebook.hrms"
-        }
+    {
+        title: "Janhit",
+        desc: "A government-focused mobile application designed to manage vendors, services, and operational workflows efficiently, ensuring transparency and smooth coordination between departments.",
+        tech: ["Flutter", "GetX", "Firebase"],
+        bgStart: "#3b82f6",
+        bgEnd: "#8b5cf6",
+        link: "https://play.google.com/store/apps/details?id=com.government.janhit"
+    },
+    {
+        title: "TreeCoin",
+        desc: "A fintech mobile application that enables users to monitor investments, track crypto portfolios, and view financial insights through secure and scalable APIs.",
+        tech: ["Flutter", "BLoC", "REST API"],
+        bgStart: "#10b981",
+        bgEnd: "#14b8a6",
+        link: "https://play.google.com/store/apps/details?id=com.treecoin.app"
+    },
+    {
+        title: "Baap CRM",
+        desc: "A lightweight CRM solution built for small businesses to manage customers, leads, and sales activities with a clean UI and efficient data handling.",
+        tech: ["Flutter", "Provider", "Node.js"],
+        bgStart: "#a855f7",
+        bgEnd: "#ec4899",
+        link: "https://play.google.com/store/apps/details?id=com.baap.crm.app"
+    },
+    {
+        title: "School Book App",
+        desc: "An education-focused mobile application allowing students to access digital books, assignments, and academic resources in a structured and user-friendly way.",
+        tech: ["Flutter", "Firebase", "Riverpod"],
+        bgStart: "#f59e0b",
+        bgEnd: "#f97316",
+        link: "https://play.google.com/store/apps/details?id=com.school.book.app"
+    },
+    {
+        title: "OfficeBook HRMS",
+        desc: "A complete HRMS mobile solution for managing employee attendance, timesheets, and daily work activities, built for scalability and ease of use.",
+        tech: ["Flutter", "GetX", "SQLite"],
+        bgStart: "#06b6d4",
+        bgEnd: "#3b82f6",
+        link: "https://play.google.com/store/apps/details?id=com.baapcompany.officebook.hrms"
+    }
     ];
 
     return (

@@ -14,7 +14,7 @@ const About = () => {
                     viewport={{ once: true }}
                     className="about-content"
                 >
-                    <div className="about-image">
+                     <div className="about-image">
                         <div className="placeholder-img">
                             {/* In a real app, this would be an image of Vaibhav */}
                             <User size={64} style={{ opacity: 0.2 }} />
@@ -24,14 +24,18 @@ const About = () => {
                     <div className="about-text">
                         <h2 className="about-heading">About <span>Me</span></h2>
                         <p className="about-desc">
-                            Hello! I'm Vaibhav Badhe, a passionate Flutter Developer based in Sangamner, Maharashtra.
-                            I specialize in building high-performance, scalable mobile applications with a focus on clean
-                            architecture and delightful user experiences.
+                        Hello! I'm Vaibhav Badhe, a passionate Flutter Developer and Technical Lead based in
+                        Sangamner, Maharashtra, India. I specialize in building scalable, high-performance
+                        mobile applications with a strong focus on clean architecture, maintainable code,
+                        and smooth user experiences.
                         </p>
+
                         <p className="about-desc">
-                            With extensive experience in Dart, Firebase, and State Management (GetX, BLoC, Provider),
-                            I turn complex problems into elegant, user-friendly solutions. I currently work as a
-                            Technical Lead at The BAAP Company, mentoring teams and driving technical excellence.
+                        I have hands-on experience working with Flutter, Dart, Firebase, REST APIs, and
+                        multiple state management solutions including GetX, BLoC, Provider, and Riverpod.
+                        Currently, I work as a Technical Lead at The BAAP Company, where I lead mobile
+                        application development, mentor developers, review code, and deliver production-ready
+                        applications used by real users on the Play Store.
                         </p>
 
                         <div className="about-stats">
