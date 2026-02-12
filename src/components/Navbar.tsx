@@ -79,7 +79,7 @@ const Navbar = () => {
                         ))}
                         <div className="mobile-socials">
                             <a href="https://github.com/vaibhavbadhe712" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
-                            <a href="https://www.linkedin.com/in/vaibhav-badhe-52513331b/" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
+                            <a href="https://www.linkedin.com/in/vaibhavbadhe-flutter/" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
                             <a href="mailto:vaibhavbadhe2004@gmail.com"><Mail size={20} /></a>
                         </div>
                     </motion.div>

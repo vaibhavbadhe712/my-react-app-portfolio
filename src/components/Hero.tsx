@@ -60,7 +60,7 @@ const Hero = () => {
                     className="flex justify-center gap-6 mt-16 pt-4"
                 >
                     <a href="https://github.com/vaibhavbadhe712" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Github size={24} /></a>
-                    <a href="https://www.linkedin.com/in/vaibhav-badhe-52513331b/" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Linkedin size={24} /></a>
+                    <a href="https://www.linkedin.com/in/vaibhavbadhe-flutter/" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Linkedin size={24} /></a>
                     <a href="mailto:vaibhavbadhe2004@gmail.com" className="text-gray-400 hover:text-white transition-colors"><Mail size={24} /></a>
                 </motion.div>
             </div>

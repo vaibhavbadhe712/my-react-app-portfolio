@@ -31,7 +31,7 @@ const Footer = () => {
                     <a href="https://github.com/vaibhavbadhe712" className="social-icon" target="_blank" rel="noopener noreferrer">
                         <Github size={24} />
                     </a>
-                    <a href="https://www.linkedin.com/in/vaibhav-badhe-52513331b/" className="social-icon" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/vaibhavbadhe-flutter/" className="social-icon" target="_blank" rel="noopener noreferrer">
                         <Linkedin size={24} />
                     </a>
                 </div>
